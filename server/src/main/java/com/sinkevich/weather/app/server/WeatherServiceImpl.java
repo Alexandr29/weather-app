@@ -1,8 +1,8 @@
-package q.qwe.service;
+package com.sinkevich.weather.app.server;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import q.qwe.Root;
+import com.sinkevich.weather.app.model.Root;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

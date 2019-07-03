@@ -28,14 +28,12 @@
     <cxf:bus id="myServiceBus">
     </cxf:bus>
 
-    <bean id="myServiceImpl" class="q.qwe.service.WeatherServiceImpl"/>
+    <bean id="myServiceImpl" class="com.sinkevich.weather.app.server.WeatherServiceImpl"/>
 
     <jaxrs:server address="/getWeather" id="helloService">
         <jaxrs:serviceBeans>
             <ref component-id="myServiceImpl" />
         </jaxrs:serviceBeans>
-        <jaxrs:providers>
-        </jaxrs:providers>
     </jaxrs:server>
 
 </blueprint>

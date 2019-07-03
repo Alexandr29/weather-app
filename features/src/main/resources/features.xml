@@ -3,8 +3,8 @@
 <features name="weather-1.0-SNAPSHOT" xmlns="http://karaf.apache.org/xmlns/features/v1.2.0">
 
     <feature name="weather" version="1.0-SNAPSHOT">
-        <bundle>mvn:q.qwe/model/1.0-SNAPSHOT</bundle>
-        <bundle>mvn:q.qwe/server/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.sinkevich.weather-app/model/1.0-SNAPSHOT</bundle>
+        <bundle>mvn:com.sinkevich.weather-app/server/1.0-SNAPSHOT</bundle>
     </feature>
 
 </features>
